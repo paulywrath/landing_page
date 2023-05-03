@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+    display: flex;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+}
+
+.links {
+    margin-left: auto;
+}

@@ -24,18 +24,45 @@ body {
     list-style: none;
 }
 
-a {
+a, .secondary {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero {
-    padding: 180px 200px;
+    padding: 100px 200px;
+    background-color: #1F2937;
     display: flex;
 }
 
+.left {
+   padding-right: 48px; 
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px 0;
+}
+
+button {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
 img {
-    max-height: 100%;
-    max-width: 100%;
+    object-fit: contain;
+    max-width: 50%;
 }

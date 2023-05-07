@@ -42,7 +42,7 @@ a, .secondary {
 
 .main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -74,7 +74,7 @@ img {
 
 .information-header {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
     text-align: center;
     margin: 40px 0;
@@ -96,4 +96,28 @@ img {
     max-width: 100%;
     border-radius: 8px;
     border: 2px solid #3882F6;
+}
+
+.text {
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 150px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoted {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: right;
+    margin-top: 24px;
 }

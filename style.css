@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    padding: 0 200px; 
+    padding: 0 14%; 
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -32,13 +32,13 @@ a, .secondary {
 }
 
 .hero {
-    padding: 100px 200px;
+    padding: 100px 14%;
     background-color: #1F2937;
     display: flex;
 }
 
 .left {
-   padding-right: 48px; 
+   padding-right: 3.5%;
 }
 
 .main {
@@ -50,7 +50,7 @@ a, .secondary {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 12px 0;
+    margin: 4px 0 12px 0;
 }
 
 button {
@@ -60,16 +60,17 @@ button {
     background-color: #3882F6;
     padding: 6px 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
-img {
+.hero img {
+    width: 1050px;
     object-fit: contain;
     max-width: 50%;
 }
 
 .information {
-    padding: 0 300px;
+    padding: 0 21%;
     margin-bottom: 100px;
 }
 
@@ -94,6 +95,7 @@ img {
   }
 
 .info-img img {
+    width: 350px;
     max-width: 100%;
     border-radius: 8px;
     border: 2px solid #3882F6;
@@ -105,7 +107,7 @@ img {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 150px 300px;
+    padding: 150px 21%;
 }
 
 .quote {
@@ -124,15 +126,16 @@ img {
 }
 
 .cta-container {
-    padding: 100px 200px;
+    padding: 100px 14%;
 }
 
 .cta {
     background-color: #3882F6;
-    padding: 50px 100px;
+    padding: 50px 7%;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #F9FAF8;
 }
 
@@ -143,5 +146,14 @@ img {
 
 .cta button {
     border: 2px solid #F9FAF8;
-    /* Why is it taller than the button in the hero section? */
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
